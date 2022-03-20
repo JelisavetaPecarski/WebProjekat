@@ -1,0 +1,26 @@
+
+Unos inicijalnih podataka u tabelu Sobe:
+
+INSERT INTO [OrganizacijaDomaDB].[dbo].[Sobe]
+ (Naziv)
+VALUES
+ ( 'Dnevna soba'),
+ ( 'Spavaca soba'),
+ ( 'Decija soba'),
+ ( 'Hodnik'),
+ ( 'Trpezarija'),
+ ( 'Kupatilo'),
+ ( 'Kuhinja')
+GO
+
+Unos inicijalnih podataka u tabelu TipoviObjekataZaSmestanje:
+
+INSERT INTO [OrganizacijaDomaDB].[dbo].[TipoviObjekataZaSmestanje]
+ (Naziv)
+VALUES
+ ( 'kutija'),
+ ( 'orman'),
+ ( 'komoda'),
+ ( 'polica')
+GO
+

@@ -1,0 +1,226 @@
+body
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: url('./Pozadina.jpg'); 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh; 
+    flex-direction: row;
+}    
+.LogovanjeForma,.PronadjenPredmetPrikaz
+{
+    font-size: 30px;
+    background-color: rgb(238, 199, 224);
+    width: 15cm; 
+    padding: 1cm; 
+    border: 1px solid black;
+    margin-left:25%;
+    margin-right:25%;
+}
+.LogovanjeDugmici
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1cm;
+}
+.Registracija,.Logovanje,.btnVratiSe
+{
+    font-size: 26px;
+}
+.KorisnickoIme
+{
+    margin-bottom: 1cm;
+}
+.KorisnickoIme,.Sifra
+{
+    display:flex;
+    flex-direction: column;
+    height:1cm;
+    font-size:20px;
+}
+.Naslov
+{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    color:rgb(167, 11, 11);
+    font-family: cursive;
+
+}
+.select,.btnDrugaStr,.btnOdjava
+{
+    font-size: 17px;
+}
+.KorisnikDiv,.KreirajObjekat,.LogovanjeForma,.FormaDodajPredmet,.PremestiPredmetForma,.PremestiPredmetPolovina,
+.PremestiPredmetDrugaPolovina,.PronadjiPredmetForma,.PronadjiPredmetFormaGlavna,.PronadjenPredmetPrikaz,
+.FormaIzbrisiPredmet,.IzbrisiPredmetForma,.FormaPremestiObjekat,.IzbrisiObjekat
+{
+    display: flex;
+    flex-direction: column;
+}
+.KorisnikDiv
+{
+    background-color:white;
+    margin:1.5cm;
+}
+.KreirajObjekat,.Objekti,.FormaDodajPredmet,.PremestiPredmetForma,.PronadjiPredmetFormaGlavna,.FormaIzbrisiPredmet,
+.FormaPremestiObjekat,.IzbrisiObjekat
+{
+    border-top: 1px solid black;
+}
+.KorisnikDiv
+{
+    border: 1px solid black;
+}
+.Objekti,.IzbrisiObjekat
+{
+    border-bottom: 1px solid black;
+}
+
+.KreirajObjekat,.FormaDodajPredmet,.PremestiPredmetForma,.PronadjiPredmetFormaGlavna,.FormaIzbrisiPredmet,
+.FormaPremestiObjekat,.IzbrisiObjekat
+{
+    background-color: rgb(238, 199, 224);
+}
+.NizBoja,.Objekti,.ObjPremestiObjekat,.SobaPremestiObjekat
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Objekti
+{
+    justify-content: space-evenly;
+    align-content: flex-start; 
+    align-items: flex-start;
+    flex: 1 1 auto;
+    overflow: auto;
+    height: 13cm;
+
+}
+.objekat
+{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    text-align: center;
+}
+.bela,.žuta,.narandžasta,.roze,.crvena,.ljubičasta,.plava,.zelena,.siva,.braon,.crna
+{
+    color:black;
+    border:2.5px solid black;
+    font-size: 30px;
+
+}
+.bela
+{
+    background-color:white;
+}
+.žuta
+{
+   background-color: rgb(252, 252, 40);
+}
+.narandžasta
+{
+    background-color: rgb(252, 133, 22);
+}
+.roze
+{
+    background-color: rgb(250, 74, 156);
+}
+.crvena
+{
+    background-color: rgb(255, 20, 20);
+}
+.ljubičasta
+{
+    background-color: rgb(182, 34, 182);
+}
+.plava
+{
+    background-color: rgb(66, 198, 238);
+}
+.zelena
+{
+    background-color: rgb(38, 230, 70);
+}
+.siva
+{
+    background-color: gray;
+}
+.braon
+{
+    background-color: rgb(190, 62, 62);
+}
+.crna
+{
+    color:white;
+    background-color: black;
+}
+.btnDrugaStr
+{
+    max-width: 5cm;
+    margin-bottom: 0.2cm;
+    margin-top: 0.4cm;
+}
+.NazivPredmeta,.NazivPredmetaDiv,.IzbisiPredmetNazivPredmeta
+{
+    display: flex;
+    flex:1 1 auto;
+}
+.NazivPredmeta,.Opis
+{
+    margin-right: 0.1cm;
+}
+.PremestiPredmet,.Odjava,.PremestiObjekat
+{
+    display: flex;
+    flex-direction:row;
+}
+.PremestiPredmetDrugaPolovina,.SobaPremestiObjekat
+{
+    margin-left: 1.5cm;
+}
+.PronadjiPredmetForma,.IzbrisiPredmetForma
+{
+    padding-right:7cm;
+}
+.NasloviManjihFormi
+{
+    font-weight: bold;
+    margin-bottom:0.3cm;
+
+}
+.PronadjenPredmetPrikaz,.Odjava
+{
+    display: flex;
+    justify-content: center;
+}
+.btnOdjava
+{
+    margin-left:0.5cm;
+}
+.Odjava
+{
+    margin-bottom: 1.5cm;
+
+}
+.korisnickoImeOdjava,.NaslovObjekti
+{
+    font-weight: bold;
+}
+.NaslovObjekti
+{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1cm;
+    margin-bottom:0.1cm;
+}
+.KreirajObjekat
+{
+    border-collapse: collapse;
+}
