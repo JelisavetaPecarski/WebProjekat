@@ -70,7 +70,7 @@ export class Korisnik
         }).then(p=>{
             if(!p.ok)
             throw Error('Već postoji korisnik sa ovim korisničkim imenom i šifrom');
-            (p.ok)
+            else
             {
                 p.json().then(id=>
                 {

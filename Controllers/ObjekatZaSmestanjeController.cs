@@ -37,7 +37,7 @@ namespace WebProjekat_Nova_verzija.Controllers
                     }
                    return Ok($"Objekat za smestanje je premesten u sobu: {objekat.Soba.Naziv}");
                 }
-                else if(objekat!=null) 
+                else if(objekat==null) 
                     return BadRequest("Objekat za smestanje nije pronadjen");
                 else
                     return BadRequest("Soba nije pronadjena");

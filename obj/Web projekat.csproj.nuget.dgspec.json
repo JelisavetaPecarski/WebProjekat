@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Web projekat\\Web projekat.csproj": {}
+    "C:\\Users\\User\\Desktop\\Web projekat\\WebProjekat\\Web projekat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Web projekat\\Web projekat.csproj": {
+    "C:\\Users\\User\\Desktop\\Web projekat\\WebProjekat\\Web projekat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Web projekat\\Web projekat.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Web projekat\\WebProjekat\\Web projekat.csproj",
         "projectName": "Web projekat",
-        "projectPath": "C:\\Users\\User\\Desktop\\Web projekat\\Web projekat.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Web projekat\\WebProjekat\\Web projekat.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Web projekat\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Web projekat\\WebProjekat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
